@@ -1,4 +1,4 @@
-# Urun1=1.25, Urun2=3.45, Urun3=5.20, Urun4=8.80 olsun
+# Urun1=1.25, Urun2=3.45, Urun3=5.20, Urun4=8.80 olsun. Ürün sayısı arttırılabilir.
 def bakiye(x,y):
     if (y > x):
         print("Bakiye yetersiz. Para iadesi yapiliyor...")
@@ -27,7 +27,6 @@ def hesap(z):
         bes = int(z/5)
         print(bes, "tane 5 kurus")
         print("Para iadesi yapildi. Tesekkurler...")
-
     elif (z == 0):
         print("Tesekkurler...")
     
